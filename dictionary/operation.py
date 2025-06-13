@@ -14,12 +14,12 @@ my_dict= {
     "Roll no" : 37
 }
 
-# print(list(my_dict)) # Typecaste the my_dict into list
-# print(my_dict)
-# print(type(my_dict))
-# print(my_dict["Name"])
-# print(my_dict["Course"])
-# print(my_dict["Roll no"])
+print(list(my_dict)) # Typecaste the my_dict into list
+print(my_dict)
+print(type(my_dict))
+print(my_dict["Name"])
+print(my_dict["Course"])
+print(my_dict["Roll no"])
 
 my_dict2 = {
     "name" : "Shatrudhan",
@@ -48,8 +48,6 @@ print(my_dict2)
 
 my_dict2.update({"syco" : "Shubham"}) # agar ye value dictionary me nhi rha to add krr dega agar rha to overwrite krr dega
 print(my_dict2["syco"])
-
-
 
 
 
