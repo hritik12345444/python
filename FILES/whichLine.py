@@ -11,9 +11,9 @@ def check_for_line():
             data = f.readline()
             if(word in data):  # same as data.find(word) != -1
                 print(count)
-                break  # jaisse hi mill jaye uske aage code run na hona chahiye
+                return  
             else :
                 count+=1
-
+    print(-1)         
 
 check_for_line()
