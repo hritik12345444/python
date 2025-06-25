@@ -11,7 +11,6 @@ class Circle:
     def Area(self):
         ara=  math.pi * self.rad ** 2 # (22/7 * r * r ) we can able to do this because we import math
         print(f"Area = {ara} cm^2")
-        # print(22/7 * self.rad * self.rad)
     
     def Perimeter(self):
         pere = 2 * 22/7 * self.rad
@@ -26,4 +25,6 @@ c1.Perimeter()
 c2 = Circle(10)
 c2.Area()
 c2.Perimeter()
-# something 
+
+pi = math.pi # this is exact value of pi 
+print(pi)
