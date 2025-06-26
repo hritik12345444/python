@@ -1,2 +1,0 @@
-# Guesse the number
-
